@@ -43,8 +43,8 @@ impl Default for NotificationsConfig {
             max_notifications: 3,
             max_per_app: 2,
             max_timeout_urgent: None,
-            max_timeout_normal: Some(5000),
-            max_timeout_low: Some(3000),
+            max_timeout_normal: Some(30000),
+            max_timeout_low: Some(30000),
         }
     }
 }
